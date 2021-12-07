@@ -34,7 +34,7 @@ int unprepare(Player* ds){
 }
 
 /*
-功能：录音准备
+功能：播放准备
 */
 int prepare(Player* ds){
 	printf("prepare in.\n");
@@ -107,7 +107,7 @@ int prepare(Player* ds){
 }
 
 /*
-功能：开始录音
+功能：开始播放
 */
 int startPlayer(Player* ds){
 	printf("startPlayer in.\n");
